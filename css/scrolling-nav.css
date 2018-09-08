@@ -5,16 +5,18 @@
  */
 
 header {
-  padding: 154px 0 100px;
+  padding: 100px 200px;
   background-image: url(https://s10.postimg.org/co6ovq6w9/Background.jpg);
-  color:white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   font-family: Helvetica, sans-serif;
   font-size: 40px;
 }
 
 @media (min-width: 992px) {
   header {
-    padding: 156px 0 100px;
+    padding: 100px 100px;
   }
 }
 
