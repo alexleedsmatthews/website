@@ -214,6 +214,16 @@ Keyword_6 - Keyword with the next most spend by advertisers for political ads
 Spend_USD_6 - Total spend in USD for Keyword_6.
 
 
+google-political-ads-updated.csv
+
+This file contains the information of the latest updated date for the Political
+Ads report. All dates provided are per UTC time zone.
+
+Fields:
+Report_Data_Updated_Date - The updated date is the date the report's data was
+last refreshed.
+
+
 See https://transparencyreport.google.com/political-ads for more
 information.
 

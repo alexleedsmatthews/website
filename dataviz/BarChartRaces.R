@@ -91,7 +91,9 @@ presidential_candidates <- presidential_candidates %>%
                                "AR1128098930098176",
                                "AR220615908601626624",
                                "AR150429820793126912",
-                               "AR468571723583717376")) %>%
+                               "AR468571723583717376",
+                               "AR109214489986990080",
+                               "AR463311797395390464")) %>%
   filter(!is.na(candidate)) %>%
   rename(total_spending = Spend_USD)
   
@@ -191,12 +193,15 @@ dems_and_reps_chart <- ggplot(dems_and_reps, aes(x = -rank, group = candidate)) 
   scale_x_discrete("") +
   scale_y_continuous("", labels = dollar) +
   theme_void() +
-  theme(legend.position = "none") +
+  theme(legend.position = "none",
+        plot.subtitle = element_text(size = 20),
+        plot.caption = element_text(size = 15)) +
   transition_time(Week_Start_Date) +
   ease_aes("linear") +
   labs(subtitle = "Week of {format(frame_time, '%b %d, %Y')}",
        caption='Source: Google Ad Transparency Database')
 
+animate(dems_and_reps_chart, width = 1500, height = 900, end_pause = 30)
 
 animate(dems_and_reps_chart, nframes = 750, fps = 25, width = 1500, height = 900, end_pause = 30)
 anim_save("pres_bar_chart_race.gif")
