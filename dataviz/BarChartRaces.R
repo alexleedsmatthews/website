@@ -93,7 +93,10 @@ presidential_candidates <- presidential_candidates %>%
                                "AR150429820793126912",
                                "AR468571723583717376",
                                "AR109214489986990080",
-                               "AR463311797395390464")) %>%
+                               "AR463311797395390464",
+                               "AR41964922858373120",
+                               "AR34365098487185408",
+                               "AR409596531209928704")) %>%
   filter(!is.na(candidate)) %>%
   rename(total_spending = Spend_USD)
   
