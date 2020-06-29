@@ -8,7 +8,7 @@ header {
   padding: 154px 0 100px;
   background-image: url(https://s10.postimg.org/co6ovq6w9/Background.jpg);
   color:white;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Monserrat', sans-serif;
   font-size: 40px;
 }
 
@@ -19,11 +19,11 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
   
 nav{
-      font-family: Helvetica, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 15px;
       display:inline;
       cursor:pointer;
@@ -41,4 +41,8 @@ nav{
 .no-bullet{
   list-style-type: none;
   
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
 }
