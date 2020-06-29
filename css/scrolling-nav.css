@@ -19,11 +19,11 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
   
 nav{
-      font-family: Helvetica, sans-serif;
+      font-family: 'Monserrat', sans-serif;
       font-size: 15px;
       display:inline;
       cursor:pointer;
@@ -42,3 +42,16 @@ nav{
   list-style-type: none;
   
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
