@@ -1,14 +1,25 @@
-Advertiser_Declared_Name,Advertiser_Declared_Regulatory_ID,Advertiser_Declared_Scope
-Rosilicie Ochoa Bogh for Senate 2020,1418008,Rosilicie Ochoa Bogh-State Senate
-Suzy Loftus for Democratic Central Committee 2020,1423420,Suzy Loftus-San Francisco Democratic County Central Committee
-Shamann Walton for Democratic Central Committee 2020,1422994,Shamann Walton-San Francisco Democratic County Central Committee
-People for Better Government Committee of the San Manuel Band of Mission Indians (FPPC ID# 1387303),1387303,James Ramos-California State Assembly District 40
-Porter for Supervisor 2020,1420446,Bruce Porter-Santa Barbara County Supervisor
-Cyndi Otteson for City Council 2020,1419024,Cyndi Otteson-Los Angeles City Council District 14
-AJ Thomas for San Francisco Democratic County Central Committee 2020,1422045,AJ Thomas-San Francisco Democratic County Central Committee
-Buffy Wicks for Assembly 2020,1415745,Buffy Wicks-California Assembly District 15
-"Run, George, Run: George Gascon for LA DA 2020",1421300,George Gascon-District Attorney: Los Angeles County
-Committee to Elect Elena Condes for Alameda County Judge 2020,1421918,Elena Condes-Alameda County Superior Court Judge
-David Chiu for Assembly 2020,1414326,David Chiu-California's 17th Assembly Member
-"PROTECT APP-BASED DRIVERS AND SERVICES, A COALITION OF ON-DEMAND DRIVERS AND NETWORK COMPANIES, SMALL BUSINESSES, COMMUNITY GROUPS AND PUBLIC SAFETY ORGANIZATIONS",1422181,"-,Protect App-Based Drivers and Services Act-California"
-Bedwell for City Council 2020,1421926,Sam Bedwell-San Diego City Council
+Advertiser_ID,Region,Advertiser_Declared_Name,Advertiser_Declared_Regulatory_ID,Advertiser_Declared_Scope,Advertiser_Declared_Promoter_Name,Advertiser_Declared_Promoter_Address
+AR128452713657663488,US-CA,Cyndi Otteson for City Council 2020,1419024,Cyndi Otteson-Los Angeles City Council District 14,,
+AR13206577758601216,US-CA,Myrna Melgar for Supervisor 2020,1425021,Myrna Melgar for Supervisor-San Francisco Board of Supervisors,,
+AR158852011142414336,US-CA,Porter for Supervisor 2020,1420446,Bruce Porter-Santa Barbara County Supervisor,,
+AR18277868983287808,US-CA,People for Better Government Committee of the San Manuel Band of Mission Indians (FPPC ID# 1387303),1387303,James Ramos-California State Assembly District 40,,
+AR331534985209053184,US-CA,Tanya Ortiz Franklin for School Board 2020,1420353,Tanya Ortiz Franklin-LAUSD School Board (district 7),,
+AR344625495771447296,US-CA,Rosilicie Ochoa Bogh for Senate 2020,1418008,Rosilicie Ochoa Bogh-State Senate,,
+AR372382598095175680,US-CA,California Republican Party,95-1144040,"Christy Smith-California's 25th Congressional District, Mike Garcia-California's 25th Congressional District",,
+AR380172500539015168,US-CA,Das Williams for Supervisor 2020,1376702,Das Williams-Santa Barbara County Supervisor,,
+AR380654292790411264,US-CA,David Chiu for Assembly 2020,1414326,David Chiu-California's 17th Assembly Member,,
+AR410008848070344704,US-CA,Diane Burgis for County Supervisor 2020,1417431,"Diane Burgis-Conta Costa County Supervisor, District 3",,
+AR430193888691486720,US-CA,Shamann Walton for Democratic Central Committee 2020,1422994,Shamann Walton-San Francisco Democratic County Central Committee,,
+AR430556521370222592,US-CA,AJ Thomas for San Francisco Democratic County Central Committee 2020,1422045,AJ Thomas-San Francisco Democratic County Central Committee,,
+AR433571588412014592,US-CA,Committee to Elect Elena Condes for Alameda County Judge 2020,1421918,Elena Condes-Alameda County Superior Court Judge,,
+AR454258075054899200,US-CA,Pang Ly for Judge 2020,1421544,Pang Ly-San Francisco Superior Court Seat 1,,
+AR462363193738526720,US-CA,Buffy Wicks for Assembly 2020,1415745,Buffy Wicks-California Assembly District 15,,
+AR488740683847303168,US-CA,"PROTECT APP-BASED DRIVERS AND SERVICES, A COALITION OF ON-DEMAND DRIVERS AND NETWORK COMPANIES, SMALL BUSINESSES, COMMUNITY GROUPS AND PUBLIC SAFETY ORGANIZATIONS",1422181,Protect App-Based Drivers and Services Act-California,,
+AR489462513230938112,US-CA,California Latino PAC,1321501,Elizabeth Romero-State Senate,,
+AR56395119619735552,US-CA,"Run, George, Run: George Gascon for LA DA 2020",1421300,George Gascon-District Attorney: Los Angeles County,,
+AR574309076767342592,US-CA,Suzy Loftus for Democratic Central Committee 2020,1423420,Suzy Loftus-San Francisco Democratic County Central Committee,,
+AR57684365722779648,US-CA,Darrell Issa for Congress,C00721332,Darrell Issa-Carl DeMaio,,
+AR83300512748797952,US-CA,Bedwell for City Council 2020,1421926,Sam Bedwell-San Diego City Council,,
+AR215868560990273536,NZ,,,,D Smith,"Suite 2.5, 27 Gillies Avenue, Newmarket, Auckland 1023"
+AR374319181669072896,NZ,,,,NZ Drug Foundation,"265 Wakefield Street, Wellington"
+AR71753372914417664,NZ,,,,2020 End of Life Choice Act Referendum Inc,"67 Hamilton Rd, Wgtn"
