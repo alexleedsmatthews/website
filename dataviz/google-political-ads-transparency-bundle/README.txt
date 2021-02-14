@@ -70,6 +70,22 @@ Spend_Range_Min_GBP - Lower bound of the amount in GBP spent by the advertiser
 on the election ad.
 Spend_Range_Max_GBP - Upper bound of the amount in GBP spent by the advertiser
 on the election ad.
+Spend_Range_Min_NZD - Lower bound of the amount in NZD spent by the advertiser
+on the election ad.
+Spend_Range_Max_NZD - Upper bound of the amount in NZD spent by the advertiser
+on the election ad.
+Spend_Range_Min_ILS - Lower bound of the amount in ILS spent by the advertiser
+on the election ad.
+Spend_Range_Max_ILS - Upper bound of the amount in ILS spent by the advertiser
+on the election ad.
+Spend_Range_Min_AUD - Lower bound of the amount in AUD spent by the advertiser
+on the election ad.
+Spend_Range_Max_AUD - Upper bound of the amount in AUD spent by the advertiser
+on the election ad.
+Spend_Range_Min_TWD - Lower bound of the amount in TWD spent by the advertiser
+on the election ad.
+Spend_Range_Max_TWD - Upper bound of the amount in TWD spent by the advertiser
+on the election ad.
 First_Served_Timestamp - The timestamp of the earliest impression for this ad.
 Last_Served_Timestamp - The timestamp of the most recent impression for this ad.
 Age_Targeting - Age ranges included in the ad's targeting.
@@ -105,12 +121,17 @@ Spend_PLN - Total amount in PLN spent on election ads by the advertiser.
 Spend_RON - Total amount in RON spent on election ads by the advertiser.
 Spend_SEK - Total amount in SEK spent on election ads by the advertiser.
 Spend_GBP - Total amount in GBP spent on election ads by the advertiser.
+Spend_NZD - Total amount in NZD spent on election ads by the advertiser.
+Spend_ILS - Total amount in ILS spent on election ads by the advertiser.
+Spend_AUD - Total amount in AUD spent on election ads by the advertiser.
+Spend_TWD - Total amount in TWD spent on election ads by the advertiser.
 
 
 google-political-ads-advertiser-weekly-spend.csv
 
 This file contains the information for how much an advertiser spent on political
-ads during a given week.
+ads during a given week. This file is updated weekly each Tuesday, with data
+from the prior Sunday through Saturday period.
 
 Fields:
 Advertiser_ID - Unique ID for an advertiser verified to run election ads on
@@ -144,6 +165,47 @@ Spend_SEK - The amount in SEK spent on election ads during the given week by
 the advertiser.
 Spend_GBP - The amount in GBP spent on election ads during the given week by
 the advertiser.
+Spend_NZD - The amount in NZD spent on election ads during the given week by
+the advertiser.
+Spend_ILS - The amount in ILS spent on election ads during the given week by
+the advertiser.
+Spend_AUD - The amount in AUD spent on election ads during the given week by
+the advertiser.
+Spend_TWD - The amount in TWD spent on election ads during the given week by
+the advertiser.
+
+
+google-political-ads-advertiser-geo-spend.csv
+
+This file contains total US advertiser spend on political ads, per US state and
+the District of Columbia.
+
+Fields:
+Advertiser_ID - Unique ID for an advertiser verified to run election ads on
+Google Ads Services.
+Advertiser_Name - Name of advertiser.
+Country - The country where election ads were served, specified in the
+ISO 3166-1 alpha-2 standard code.
+For example: "US" for the United States of America.
+Country_Subdivision_Primary - The primary subdivision of the country where
+election ads were served, specified by the ISO 3166-2 standard code.
+For example: “US-WI” for Wisconsin.
+Spend_USD - The total amount spent on election ads by the advertiser in USD.
+Spend_EUR - The total amount spent on election ads by the advertiser in EUR.
+Spend_INR - The total amount spent on election ads by the advertiser in INR.
+Spend_BGN - The total amount spent on election ads by the advertiser in BGN.
+Spend_HRK - The total amount spent on election ads by the advertiser in HRK.
+Spend_CZK - The total amount spent on election ads by the advertiser in CZK.
+Spend_DKK - The total amount spent on election ads by the advertiser in DKK.
+Spend_HUF - The total amount spent on election ads by the advertiser in HUF.
+Spend_PLN - The total amount spent on election ads by the advertiser in PLN.
+Spend_RON - The total amount spent on election ads by the advertiser in RON.
+Spend_SEK - The total amount spent on election ads by the advertiser in SEK.
+Spend_GBP - The total amount spent on election ads by the advertiser in GBP.
+Spend_NZD - The total amount spent on election ads by the advertiser in NZD.
+Spend_ILS - The total amount spent on election ads by the advertiser in ILS.
+Spend_AUD - The total amount spent on election ads by the advertiser in AUD.
+Spend_TWD - The total amount spent on election ads by the advertiser in TWD.
 
 
 [DEPRECATED] google-political-ads-campaign-targeting.csv
@@ -194,6 +256,10 @@ Spend_PLN - Total amount in PLN spent on election ads in this region.
 Spend_RON - Total amount in RON spent on election ads in this region.
 Spend_SEK - Total amount in SEK spent on election ads in this region.
 Spend_GBP - Total amount in GBP spent on election ads in this region.
+Spend_NZD - Total amount in NZD spent on election ads in this region.
+Spend_ILS - Total amount in ILS spent on election ads in this region.
+Spend_AUD - Total amount in AUD spent on election ads in this region.
+Spend_TWD - Total amount in TWD spent on election ads in this region.
 
 
 [DEPRECATED] google-political-ads-top-keywords-history.csv
@@ -257,14 +323,14 @@ For New Zealand, this information is provided during our verification process.
 Fields:
 Advertiser_ID - Unique ID for an advertiser verified to run election ads on
 Google Ads Services.
-Region - The region for which the advertisers provided this data.  ISO 3166-1
+Region - The region for which the advertisers provided this data. ISO 3166-1
 alpha-2 standard code is used for country regions (for example: "NZ" for New
 Zealand). ISO 3166-2 standard code is used for primary subdivisions (for
 example: “US-CA” for California state in United States).
 Advertiser_Declared_Name - The California advertiser’s Committee declared name.
 Advertiser_Declared_Regulatory_ID - The California advertiser’s Committee
 declared identification number.
-Advertiser_Declared_Scope  - The California advertiser’s Committee-provided
+Advertiser_Declared_Scope - The California advertiser’s Committee-provided
 information about the candidate and office, or ballot proposition and
 jurisdiction, to which the advertisement refers.
 NZ_Advertiser_Declared_Name - The New Zealand advertiser’s declared Promoter
@@ -281,6 +347,6 @@ https://transparencyreport.google.com/political-ads/home
 The supporting Frequently Asked Questions at
 https://support.google.com/transparencyreport/answer/9575640?hl=en&ref_topic=7295796
 
-The  Political Advertising on google BigQuery public dataset at
+The Political Advertising on google BigQuery public dataset at
 https://console.cloud.google.com/marketplace/details/transparency-report/google-political-ads
 
